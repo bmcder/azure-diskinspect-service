@@ -40,7 +40,7 @@ copy,/Windows/System32/winevt/Logs/Microsoft-Windows-TCPIP%4Operational.evtx
 
 echo,#Windows Update Logs
 copy,/Windows/WindowsUpdate.log
-copy,/Windows/Logs/WindowsUpdate/WindowsUpdate.*.etl,noscan
+copy,/Windows/Logs/WindowsUpdate/WindowsUpdate/*.etl,noscan
 copy,/Windows/SoftwareDistribution/ReportingEvents.log
 copy,/Windows/Logs/CBS/*.log
 copy,/Windows/Logs/CBS/*.cab,noscan
